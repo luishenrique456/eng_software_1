@@ -37,9 +37,11 @@ public class q12_calculadora_math {
             case '/':
                 if(numero2 == 0){
                     System.out.print("Não pode dividir por 0 (zero)");
+                    break;
                 }
                 else{
                     System.out.print("divisão é "+dividir(numero1, numero2));
+                    break;
                 }
                 
         
